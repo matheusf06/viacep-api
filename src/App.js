@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import Api from './components/Api';
-import './App.css';
+import React, { Component } from "react";
+import Content from "./containers/Content";
+import "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <div>   
-        <Api></Api>
+      <div className="container">
+        <Content />
       </div>
     );
   }
